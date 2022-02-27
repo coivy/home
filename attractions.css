@@ -37,3 +37,8 @@ h2 {
 	font-size: 7pt;
 	width:150px;
 }
+
+.iimage {
+	border-width: 5px;
+	border-style: solid;
+}
