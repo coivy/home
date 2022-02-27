@@ -1,0 +1,112 @@
+/*copied from w3schools*/
+.container {
+	position: relative;
+	margin: 0 auto; /* Center it */
+}
+.container .content {
+	font-size: 20px;
+	text-align: center;
+	position: absolute; /* Position the background text */
+	bottom:0; /* At the bottom. Use top:0 to append it to the top */
+	background: rgb(0, 0, 0); /* Fallback color */
+	background: rgba(211, 211, 211, 0.5); /* Light grey color with 0.5 opacity */
+	color: #f1f1f1; /* Grey text */
+	width: 100%; /* Full width */
+	padding: 20px; /* Some padding */
+}
+#top {
+	font-size: 40px;
+	padding: 1px;
+}
+
+#quote {
+	padding: 10px;
+}
+
+#paragraph {
+	text-indent: 3em;
+	text-align: justify;
+}
+/*copied from w3schools*/
+.topnav { /* background colour to the bar*/
+  background-color:#33CCFF;
+  overflow: hidden;
+  font-family:fantasy;
+}
+
+.topnav a { /* links inside the nav bar*/
+  float: left;
+  color:#000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover { /* what it does when you hover over the blocks*/
+  background-color: #FFFFFF;
+  color: black;
+}
+
+.topnav a.active { /* class "active", only the home box*/
+  background-color:#33CCFF;
+  color: black;
+}
+
+.center {
+	margin:auto; /* margin:auto; centers horizontally*/
+	width: 65%; /*width of the text*/
+	padding: 10px; /* text and border*/
+	font-size: 17px;
+	font-family: Comfortaa, sans-serif;
+	text-align: justify;
+}
+
+p {
+	text-align:center;
+}
+
+.justify {
+	text-align: justify;
+}
+
+body {
+	background-color:rgb(255,192,203);
+	
+}
+
+.texts {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	font-family: Comfortaa, sans-serif;
+	margin:auto; /* margin:auto; centers horizontally*/
+	padding: 10px; /* text and border*/
+	font-size: 17px;
+	text-align: justify;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+	font-family: Comfortaa, sans-serif;
+}
+
+.h1 {
+	text-align: center;
+	font-size: 40px;
+	font-family: Comfortaa, sans-serif;
+}
+
+#price {  
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#width {
+	max-width: 100%;
+	min-width: 100%;
+}

@@ -1,0 +1,39 @@
+body {
+	font-family: Comfortaa, sans-serif
+}
+
+.imagetext {
+	padding:15px;
+	justify-content: center;
+	display: flex;
+}
+
+.textt {
+	text-align: center;
+	margin-right: 20px;
+}
+
+p {
+	text-indent: 3em;
+	text-align:center;
+	width:65%;
+	margin:auto;
+	text-align:justify;
+}
+
+#good {
+	font-family: "Times New Roman", serif;
+}
+
+h2 {
+	text-align: center;
+}
+
+#middle {
+	text-align: center;
+}
+
+.caption {
+	font-size: 7pt;
+	width:150px;
+}
