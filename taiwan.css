@@ -104,9 +104,16 @@ h2 {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+	border-width: 5px;
+	border-style: solid;
 }
 
 #width {
 	max-width: 100%;
 	min-width: 100%;
+}
+
+
+#captionn {
+	text-align: center;
 }
