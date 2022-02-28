@@ -1,4 +1,4 @@
-/*copied from w3schools*/
+/*text on image (inspired by w3schools)*/
 .container {
 	position: relative;
 	margin: 0 auto; /* Center it */
@@ -7,13 +7,14 @@
 	font-size: 20px;
 	text-align: center;
 	position: absolute; /* Position the background text */
-	bottom:0; /* At the bottom. Use top:0 to append it to the top */
+	bottom:0; /* Used to append text to the bottom */
 	background: rgb(0, 0, 0); /* Fallback color */
 	background: rgba(211, 211, 211, 0.5); /* Light grey color with 0.5 opacity */
 	color: #f1f1f1; /* Grey text */
 	width: 100%; /* Full width */
-	padding: 20px; /* Some padding */
+	padding: 20px;
 }
+
 #top {
 	font-size: 40px;
 	padding: 1px;
@@ -27,11 +28,11 @@
 	text-indent: 3em;
 	text-align: justify;
 }
-/*copied from w3schools*/
-.topnav { /* background colour to the bar*/
-  background-color:#33CCFF;
+/*navigation bar (inspired by w3schools)*/
+.topnav { 
+  background-color:#33CCFF; /* background colour to the bar*/
   overflow: hidden;
-  font-family:fantasy;
+  font-family: fantasy;
 }
 
 .topnav a { /* links inside the nav bar*/
@@ -56,7 +57,7 @@
 .center {
 	margin:auto; /* margin:auto; centers horizontally*/
 	width: 65%; /*width of the text*/
-	padding: 10px; /* text and border*/
+	padding: 10px;
 	font-size: 17px;
 	font-family: Comfortaa, sans-serif;
 	text-align: justify;
@@ -82,7 +83,7 @@ body {
 	width: 60%;
 	font-family: Comfortaa, sans-serif;
 	margin:auto; /* margin:auto; centers horizontally*/
-	padding: 10px; /* text and border*/
+	padding: 10px;
 	font-size: 17px;
 	text-align: justify;
 }
